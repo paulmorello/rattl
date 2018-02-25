@@ -129,6 +129,7 @@ li a {
     width: 0%;
     padding: 0;
     visibility: collapse;
+    transition: none;
   }
 
   .hero-link-container {
@@ -174,6 +175,7 @@ li a {
     width: 0%;
     padding: 0;
     visibility: collapse;
+    transition: none;
   }
 
   .hero-link-container {
