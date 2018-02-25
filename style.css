@@ -196,3 +196,49 @@ li a {
   }
 
 }
+
+@media (max-width: 350px){
+
+  .hero-container {
+    background: none;
+    background-color: #35b729;
+  }
+
+  .hero-content-container {
+    width: 100%;
+    float: none;
+  }
+
+  h1 {
+    font-size: 3.5em;
+    text-align: center;
+    transition: 2s;
+    padding: 10%;
+  }
+
+  p {
+    height: 0%;
+    width: 0%;
+    padding: 0;
+    visibility: collapse;
+    transition: none;
+  }
+
+  .hero-link-container {
+    width: 100%;
+  }
+
+  .hero-cta-btn {
+    background-color: white;
+    color: #35b729;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  .hero-cta-btn:hover {
+    color: white;
+  }
+
+}
