@@ -14,7 +14,7 @@
 .hero-container {
   width: 100%;
   height: 90%;
-  background: url('smartphone.jpg') no-repeat center center;
+  background: url('rattl-desktop-page.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -23,14 +23,14 @@
 }
 
 .hero-content-container {
-  width: 55%;
+  width: 52%;
   height: 100%;
   float: right;
 }
 
 h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 4.5em;
+  font-size: 4em;
   color: white;
   padding: 1.5em 1em 0em .5em;
   transition: 2s;
