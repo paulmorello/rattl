@@ -36,27 +36,56 @@
 }
 
 .hero-content-container {
-  height: 100%;
+  height: 80%;
   width: 50%;
-  margin: 0 auto;
   text-align: center;
+  margin: 2.5em auto;
 }
 
 h1 {
   font-family: headingFont;
-  font-size: 4em;
+  font-size: 3.5em;
   color: #727278;
-  padding: 1.5em 1em 0em .5em;
-  transition: 2s;
-  margin-bottom: .5em;
+  transition: 1s;
+  margin-bottom: .75em;
 }
 
 p {
   font-family: bodyFont;
   color: #727278;
-  font-size: 1em;
-  padding: 0em 2.5em 3em 2em;
   transition: 2s;
+  margin-bottom: .5em;
+}
+
+.hero-list {
+  margin: 1em 0 4em 0;
+}
+
+.hero-list-item {
+  text-align: left;
+  margin: 2em 0 2em 0;
+
+}
+
+.number {
+  padding: 10px 15px 10px 15px;
+  background-image: linear-gradient(to top right, #35b729, #24CE48);
+  border-radius: 100%;
+  color: white;
+  margin-right: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.hero-subheading {
+  font-weight: bolder;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+.hero-list-point {
+  margin-left: 5.5em;
+  font-size: .9em;
 }
 
 .logo {
@@ -64,10 +93,6 @@ p {
   padding: 1em 0 0 2em;
 }
 
-.hero-link-container {
-  height: 100%;
-  width: 100%;
-}
 
 .hero-cta-btn {
   text-decoration: none;
@@ -78,6 +103,17 @@ p {
   font-family: bodyFont;
   color: white;
 }
+
+.hero-cta-btn-2 {
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 8px 58px 8px 58px;
+  border: 2px solid #727278;
+  border-radius: 20px;
+  font-family: bodyFont;
+  color: #727278;
+}
+
 
 .hero-cta-btn:hover {
   background-color: #267E20;
