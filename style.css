@@ -50,6 +50,21 @@ h1 {
   margin-bottom: .75em;
 }
 
+h2 {
+  font-family: headingFont;
+  font-size: 2em;
+  color: #727278;
+  transition: 1s;
+  margin-bottom: .25em;
+}
+
+h3 {
+  font-family: headingFont;
+  color: #727278;
+  transition: 1s;
+  margin-bottom: .25em;
+}
+
 p {
   font-family: bodyFont;
   color: #727278;
@@ -118,6 +133,50 @@ p {
 .hero-cta-btn:hover {
   background-color: #267E20;
 }
+
+.howitworks-container {
+  width: 100%;
+  height: 100%;
+  margin: 4em 0 0 0;
+}
+
+.howitworks-content-container {
+  height: 55%;
+  width: 100%;
+  text-align: center;
+  margin: 2em auto 0 auto;
+}
+
+.howitworks-item {
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: .5em 1em .5em 1em;
+}
+
+.howitworks-content h3 {
+  font-size: .8em;
+  margin-bottom: 10px;
+}
+
+.howitworks-content p {
+  font-size: .8em;
+}
+
+.icon {
+  padding: 10px 15px 10px 15px;
+  background-image: linear-gradient(to top right, #35b729, #24CE48);
+  border-radius: 100%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: bodyFont;
+  margin-bottom: .3em;
+
+}
+
 
 
 
