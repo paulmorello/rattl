@@ -181,6 +181,8 @@ p {
 
 @media (max-width: 450px){
 
+/*  landing page */
+
   .hero-content-container {
     width: 100%;
   }
@@ -222,11 +224,60 @@ p {
     display: block;
     width: 80%;
     margin-bottom: 10px;
+    font-size: 90%;
   }
 
   .hero-cta-btn-2 {
     display: block;
     width: 80%;
+    font-size: 90%;
   }
 
+  /* How it works */
+
+  .howitworks-container {
+    height: 110%;
+  }
+
+  .howitworks-item {
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .howitworks-content {
+    width: 70%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .howitworks-content h3 {
+    display: inline-block;
+    font-size: 1em;
+    text-align: right;
+    width: 100%;
+    vertical-align: middle;
+
+  }
+
+  .howitworks-content p {
+    margin: 0;
+    padding: 0;
+    display: none;
+    visibility: hidden;
+  }
+
+  .icon {
+    width: 15%;
+    vertical-align: middle;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 330px){
+  .howitworks-container {
+    height: 150%;
+  }
 }
