@@ -198,12 +198,17 @@ p {
   }
 
   span.hero-subheading {
+    display: inline-block;
     font-size: 1em;
     text-align: right;
+    width: 65%;
+    vertical-align: middle;
   }
 
   span.number {
-
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
   }
 
   p.hero-list-point {
@@ -214,16 +219,14 @@ p {
   }
 
   .hero-cta-btn {
-    background-color: white;
-    color: #35b729;
-    width: 60%;
-    margin: 0 auto;
     display: block;
-    text-align: center;
+    width: 80%;
+    margin-bottom: 10px;
   }
 
-  .hero-cta-btn:hover {
-    color: white;
+  .hero-cta-btn-2 {
+    display: block;
+    width: 80%;
   }
 
 }
