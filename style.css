@@ -188,7 +188,7 @@ p {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     transition: 2s;
   }
@@ -254,7 +254,7 @@ p {
 
   .howitworks-content h3 {
     display: inline-block;
-    font-size: 1em;
+    font-size: 100%;
     text-align: right;
     width: 100%;
     vertical-align: middle;
