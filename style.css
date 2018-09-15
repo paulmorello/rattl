@@ -134,17 +134,17 @@ p {
   background-color: #267E20;
 }
 
-.howitworks-container {
-  width: 100%;
-  height: 100%;
-  margin: 4em 0 0 0;
-}
-
 .howitworks-content-container {
-  height: 55%;
+  height: 100%;
   width: 100%;
   text-align: center;
   margin: 2em auto 0 auto;
+}
+
+.howitworks-container {
+  width: 100%;
+  height: 55%;
+  margin: 4em 0 0 0;
 }
 
 .howitworks-item {
@@ -236,7 +236,7 @@ p {
   /* How it works */
 
   .howitworks-container {
-    height: 110%;
+    height: 60%;
   }
 
   .howitworks-item {
@@ -274,10 +274,14 @@ p {
     margin: 0 auto;
   }
 
+  .howitworks-ctas {
+    height: 20%;
+  }
+
 }
 
 @media (max-width: 355px){
   .howitworks-container {
-    height: 150%;
+    height: 80%;
   }
 }
